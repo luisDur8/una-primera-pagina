@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>luisDur</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Krub:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class=" nav-bg">
+        <nav class="navegacion contenedor">
+            <a href="#">Inicio</a>
+            <a href="#">Sobre mí</a>
+            <a href="#">Blog</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </div>
+
+    <div class="hero">
+        <div class="contenido-hero">
+            <h2>luisDur<span> - Página Personal</span></h2>
+            <p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="74" height="74" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="12" cy="11" r="3" />
+                <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z">
+              </svg>México</p>
+            
+            <a class="boton" href="#contacto">Contactar</a>
+        </div>
+    </div>
+
+    <div class="contenedor sombra">
+        <h2>Mis Servicios</h2>
+        <main class="servicios">
+                <div class="servicio">
+                    <h3>Desarrollo Web</h3>
+                    <div class="iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-laptop" width="68" height="68" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <line x1="3" y1="19" x2="21" y2="19" />
+                            <rect x="5" y="6" width="14" height="10" rx="1" />
+                          </svg>
+                    </div>
+                    <p>Ut congue ligula sapien, ac aliquet erat viverra a. Nulla rhoncus hendrerit fringilla. Mauris tempus sagittis libero, eget finibus sem aliquet eget.</p>
+                </div>
+                <div class="servicio">
+                    <h3>Matemáticas</h3>
+                    <div class="iconos">
+
+                        <!-- https://tablericons.com/ -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-math-function" width="68" height="68" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M14 10h1c1 0 1 1 2.016 3.527c.984 2.473 .984 3.473 1.984 3.473h1" />
+                            <path d="M13 17c1.5 0 3 -2 4 -3.5s2.5 -3.5 4 -3.5" />
+                            <path d="M3 19c0 1.5 .5 2 2 2s2 -4 3 -9s1.5 -9 3 -9s2 .5 2 2" />
+                            <line x1="5" y1="12" x2="11" y2="12" />
+                          </svg>
+                    </div>
+                    <p>Ut congue ligula sapien, ac aliquet erat viverra a. Nulla rhoncus hendrerit fringilla. Mauris tempus sagittis libero, eget finibus sem aliquet eget.</p>
+                </div>
+                <div class="servicio">
+                    <h3>Coaching</h3>
+                    <div class="iconos">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-users" width="68" height="68" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                            <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+                          </svg>
+                    </div>
+                    <p>Ut congue ligula sapien, ac aliquet erat viverra a. Nulla rhoncus hendrerit fringilla. Mauris tempus sagittis libero, eget finibus sem aliquet eget.</p>
+                </div>
+        </main>
+
+        <div id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <form class="formulario" action="#" method="POST">
+                <legend>Contáctame llenando todos los campos</legend>
+
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                    </div>
+                    <div class="campo">
+                        <label>Teléfono</label>
+
+                        <input type="tel" name="telefono" placeholder="Teléfono">
+                    </div>
+                    <div class="campo w-100">
+                        <label>Correo</label>
+
+                        <input type="mail" name="correo" placeholder="Mail">
+                    </div>
+                    <div class="campo w-100">
+                        <label>Mensaje:</label>
+
+                        <textarea></textarea>
+                    </div>
+                </div><!--.contenedor-campos-->
+                <div class="enviar">
+                    <input class="boton" type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>© luisDur │ Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
