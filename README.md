@@ -1,2 +1,2 @@
 # Pagina-Personal
-P.
+Sin dominio.
